@@ -84,7 +84,21 @@ section{
 .bg3{
     background-image: url(Sport-1.jpeg);
 }
-@media (max-width:500px) {
+@media screen and ( max-width:1040px) {
+    h1{
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width:800px) {
+    h1{
+        font-size: 4.5rem;
+    }
+    .text{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:500px) {
     h1{
         font-size: 332%;
     }
